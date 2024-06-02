@@ -1,0 +1,71 @@
+*{}
+
+body{
+    background-color: beige;
+}
+
+nav{
+    background-color: grey;
+    color: aliceblue;
+}
+
+nav li{
+    list-style: none;
+}
+
+nav li:hover{
+    background-color: brown;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+p[title]{
+    background-color: coral;
+}
+
+button{
+    background-color: chocolate;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+
+#about{
+    background-color: rgb(113, 135, 176);
+}
+
+#about div:first-child{
+    background-color: brown;
+}
+
+#about div:last-child{
+    background-color: cadetblue;
+}
+
+#about > div:nth-child(2){
+    background-color: blanchedalmond;
+}
+
+.col-left{
+    background-color: bisque;
+}
+
+.col-left > h3 ~ p{
+    background-color: crimson;
+}
+
+.col-left > h3 ~ p:first-letter{
+    font-size: 40px;
+    background-color: darkorange;
+}
+
+.col-left > h3 + p{
+    background-color: deeppink;
+}
+
+.col-left > h3 ~ p[title]{
+    background-color: aquamarine;
+}
